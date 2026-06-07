@@ -1,5 +1,7 @@
 # Business Requirements Document (BRD)
 
+> **Status note (2026-06-07):** Tài liệu này được lập chủ yếu từ thông tin gián tiếp và cần đối chiếu lại với `CUSTOMER-DISCOVERY.md` trước khi sử dụng làm baseline.
+
 ## 1. Document Overview
 
 ### 1.1 Purpose

@@ -1,5 +1,7 @@
 # CONTEXT.md — Delivery Assumptions & Risk Assessment
 
+> **Status note (2026-06-07):** Các giả định và lựa chọn kiến trúc trong tài liệu này chưa phản ánh buổi trao đổi trực tiếp với khách. Không coi lựa chọn Odoo hoặc mô hình triển khai hiện tại là quyết định đã chốt; cần đánh giá lại từ `CUSTOMER-DISCOVERY.md` và `COMPETITOR-ANALYSIS.md`.
+
 **Last Updated**: 2026-03-28  
 **Owner**: Technical Lead  
 **Status**: Locked (not for external communication)
@@ -109,9 +111,9 @@
 - **ERPNext**: Highcode (not lowcode), team lacks ERPNext ecosystem knowledge, weaker AI support coverage vs Odoo
 - **Full Odoo Community monolith**: Good but tightly couples backend to Odoo UI paradigm; harder to customize for TPCo's unique domain
 
-### Selected: Odoo Community (Backend Only) + Custom Frontend Architecture
+### Superseded Assumption: Odoo Community (Backend Only) + Custom Frontend Architecture
 
-**Approach**: Use Odoo as backend/database for manufacturing modules, but build a custom frontend application (React/Vue).
+**Old assumption, not current decision**: Use Odoo as backend/database for manufacturing modules, but build a custom frontend application (React/Vue).
 
 **Why this hybrid model**:
 1. ✅ **Leverage Odoo's manufacturing strength**: Battle-tested BOM, work orders, inventory, costing — no need to rebuild
@@ -202,7 +204,7 @@ If timeline compresses or budget tightens: **Full Odoo Community** (accept less 
 - ✅ **Manufacturing module non-negotiable**: Solution must have native manufacturing support (BOM, work orders, inventory)
 - ✅ **Headcount 100-200**: Moderately complex org; justifies backend/frontend separation
 - ✅ **System users 30-50**: Estimate based on operational staff; actual TBD from L confirmation
-- ✅ **Selected architecture**: Odoo Community (backend) + custom frontend (React/Vue)
+- ⏳ **Architecture not selected**: Odoo Community backend + custom frontend remains one option, not a locked decision.
 - ⏳ **Pending confirmation**: HRM status, time tracking, financial software, manufacturing process detail
 
 ---

@@ -1,5 +1,7 @@
 # L-CHECKLIST.md
 
+> **Status note (2026-06-07):** Checklist này được lập trước buổi trao đổi trực tiếp với khách. Dùng `CUSTOMER-DISCOVERY.md` làm nguồn hiện trạng mới và chỉ giữ tài liệu này để tham chiếu các câu hỏi còn thiếu.
+
 ## 1. Mục đích tài liệu
 
 Checklist này được tách ra từ BRD để dùng trực tiếp khi làm việc với anh L.
