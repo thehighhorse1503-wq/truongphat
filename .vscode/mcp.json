@@ -1,0 +1,12 @@
+{
+	"servers": {
+		"drawio-mcp": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"@next-ai-drawio/mcp-server@latest"
+			]
+		}
+	},
+	"inputs": []
+}
